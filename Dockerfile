@@ -16,4 +16,4 @@ RUN npm install
 CMD ["npm", "node app.js"]
 
 # Give the tcp port name
-EXPOSE 3000
+EXPOSE process.env.PORT
