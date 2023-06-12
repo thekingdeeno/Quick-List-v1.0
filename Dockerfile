@@ -14,3 +14,6 @@ RUN npm install
 
 # Define the entry point for the container
 CMD ["npm", "node app.js"]
+
+# Give the tcp port name
+EXPOSE 3000
